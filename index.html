@@ -4,16 +4,38 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="keyword" content="bowo, bowofade, websites freelancer, web developer, nigeria web developer, flutter developer, android apps developer, oyerinde bowofade, Networker, j2fashion, uniabuja developer">
+      <meta name="keyword" content="bowo, bowofade, websites freelancer, web developer, nigeria web developer, flutter developer, android apps developer, oyerinde bowofade bukunmi, Networker, j2fashion, uniabuja developer, ios developer, ios app, fullstack freelancer, php developer, laravel, abuja developer">
       <title>bowofade</title>
 
       <!--fontawesome script-->
       <script src="https://kit.fontawesome.com/ab7d4c3953.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+      <script src="js/random.js"></script>
       
       <link rel="stylesheet" href="css/bootstrap.css">
+      <!-- <link rel="stylesheet" href="css/animate.css"> -->
       <link rel="stylesheet" href="css/style.css" />
       <style>
-         
+         /* remove link decoration */
+         a, a.f-link, a.t-link, a.i-link {
+         text-decoration: none!important;
+         color: white!important;
+         }
+         a.f-link:hover {
+         color: #007bff!important;
+         }
+         a.t-link:hover {
+         color: dodgerblue!important;
+         }
+         a.i-link:hover {
+         color: orangered!important;
+         }         
+         a.g-link:hover {
+         color:  #28a745!important;
+         }
+         a.l-link:hover {
+         color: #ffc107!important;
+         }         
       </style>
    </head>
 
@@ -21,9 +43,10 @@
       <!-- script for redirection -->
       <script type="text/JavaScript"> var submitted = false;</script>
       <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"
-         onload=" if(submitted) {window.location='https://www.google.com';} "> </iframe>
+         onload=" if(submitted) {window.location='https://www.google.com';} "> 
+      </iframe>
 
-      <nav class="navbar navbar-expand-md bg-primary navbar-dark d-lg-none sticky-top">
+      <nav class="navbar navbar-expand-md bg-color navbar-dark d-lg-none sticky-top">
          <!-- Brand -->
          <a class="navbar-brand" href="index.html"><img src="image/name.png" alt="bowofade.com" style="max-width: 220px;"></a>
 
@@ -34,7 +57,7 @@
 
          <!-- Navbar links -->
          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbar-right">
                <li class="nav-item">
                   <a class="nav-link font-weight-bold a-link" href="index.html">Home</a>
 
@@ -59,7 +82,7 @@
       <div class="container-fluid">
 
          <!-- ====Header staart here=== -->
-         <div class="bg-primary d-none h-100" id="aside">
+         <div class="d-none h-100" id="aside">
             <header class="header">
                <div class="mx-auto text-center">
                   <!-- ===profile image=== -->
@@ -71,11 +94,11 @@
 
                   <!-- ===social media icon d-block === -->
                   <div class="list-unstyled d-inline-block">
-                     <a href="" class="s-link pr-1" title="facebook"><i class="fab fa-facebook fa-2x "></i></a>
-                     <a href="" class="s-link pr-1" title="Linkdin"><i class="fab fa-linkedin fa-2x"></i></a>
-                     <a href="" class="s-link pr-1" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
-                     <a href="" class="s-link pr-1 " title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
-                     <a href="" class="s-link pr-1" title="github"><i class="fab fa-github fa-2x"></i></a>
+                     <a href="" class="f-link pr-1" title="facebook"><i class="fab fa-facebook fa-2x "></i></a>
+                     <a href="" class="l-link pr-1" title="Linkdin"><i class="fab fa-linkedin fa-2x"></i></a>
+                     <a href="" class="t-link pr-1" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                     <a href="" class="i-link pr-1 " title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                     <a href="" class="g-link pr-1" title="github"><i class="fab fa-github fa-2x"></i></a>
                   </div>
                   <!-- ===social media icon d-block ends here=== -->
 
@@ -112,33 +135,46 @@
                <!-- navigation link in the sidebar begins -->
 
                <!-- ====footer begins here=== -->
-               <div class="footer bg-info text-center w-100">
+               <div class="footer text-center text-white w-100" style="background-color: rgba(100, 100, 100, 0.21);">
                   <p class="my-1">Copyright <i class="fa fa-copyright" aria-hidden="true"></i>Bowofade.com <br> Design
-                     By <span>Networker</span></p>
+                     By <span class="text-primary">Networker</span></p>
                </div>
             </header>
          </div>
 
          <!-- ===The main page=== -->
          <div class="row" id="main">
-            <div class=" flex-fill services col-sm-6" id="about">
-               <img src="image/house.jpg" alt="" class="img-fluid d-block">
+            <div class="flex-fill services col-sm-6" id="about" style="background-image: url('image/grad2.jpg'); background-size: cover;">
+               
             </div>
             <div class=" flex-fill services col-sm-6">
                <h1 class="subhead">About Me</h1>
                <p>I am a frontend web developer with 2years of experience</p>
                <span class="profession text-primary">WEB FRONTEND DEVELOPER/SOFTWARE DEVELOPER</span>
-               <div class="about bg-info">
-                  <p><b class="bold text-light">Date of Birth:&nbsp;&nbsp;&nbsp;&nbsp;</b> 23<sup>rd</sup> March, 1996
-                  </p>
-                  <p><b class="bold text-light">Address:</b>
-                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plot 801 Cadastral Zone,
-                     Ebitu-Ukiwe Street, Jabi Abuja</p>
-                  <p><b
-                        class="bold text-light">Email:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                     Netbite62@gmail.com</p>
-                  <p><b class="bold text-light">Phone:</b> (+234) 708-135-3229</p>
-                  <p><b class="bold text-light">Frelancer:</b> Available</p>
+               <div class="about">
+                  <table class="table table-borderless w-100">
+                     <tr>
+                        <td class="w-25 dbold">Name:</td>
+                        <td class="w-75">Oyerinde Bowofade</td>
+                     </tr>
+                     <tr>
+                        <td class="w-25 dbold">Birthday:</td>
+                        <td class="w-75">23rd March, 1996</td>
+                     </tr>
+                     <tr>
+                        <td class="w-25 dbold">Address:</td>
+                        <td class="w-75">Plot 801 Cadastral zone, Ebitu-Ukiwe street Jabi, Abuja</td>
+                     </tr>
+                     <tr>
+                        <td class="w-25 dbold">Phone:</td>
+                        <td class="w-75">+234 708 135 3229</td>
+                     </tr>
+                     <tr>
+                        <td class="w-25 dbold">Email:</td>
+                        <td class="w-75">info.bowofade@gmail.com</td>
+                     </tr>
+
+                  </table>
                </div>
             </div>
 
@@ -151,11 +187,11 @@
                   <div class="col-md-12">
                      <div class="row">
                         <div class="col-sm-12 resume bg-light school m-2">
-                           <h4 class="date pt-3 text-primary">1999 - 2007</h4>
+                           <h4 class="date pt-3 color date">1999 - 2007</h4>
                            <h5>Kiddies Nursery and Primary School, Erin-Ijesa</h5>
                         </div>
                         <div class="col-sm-12 resume bg-light school m-2">
-                           <h4 class="date pt-3 text-primary">2007 - 2011</h4>
+                           <h4 class="date pt-3 color date">2007 - 2011</h4>
                            <h3>Science</h3>
                            <h5>Erin Community Grammar School, Erin-Ijesa</h5>
                            <p class="text-right"></p>
@@ -163,20 +199,20 @@
                      </div>
                      <div class="row">
                         <div class="col-sm-12 resume bg-light school m-2">
-                           <h4 class="date pt-3 text-primary">2011 - 2013</h4>
+                           <h4 class="date pt-3 color date">2011 - 2013</h4>
                            <h3>Science</h3>
                            <h5>George Burton Memorial College, Ilesa</h5>
                            <p class="text-right">Completed SSCE</p>
                         </div>
                         <div class="col-sm-12 resume bg-light school m-2">
-                           <h4 class="date pt-3 text-primary">2017 - 2021</h4>
+                           <h4 class="date pt-3 color date">2017 - 2021</h4>
                            <h3>Bachelor's Degree C.Science</h3>
                            <h5>University of Abuja, Gwagwalada Abuja</h5>
                         </div>
                      </div>
                   </div>
                   <div class="col-12 m-2 text-center">
-                     <a href="#" class="cv text-center">Download CV</a>
+                     <a href="#" class="cv text-center py-2 px-3" download>Download CV</a>
                   </div>
                </div>
                <!--====================================================
@@ -252,11 +288,11 @@
                                  information highway will close the loop on focusing solely on the bottom line.</p>
                            </div>
                            <div class="resume-date pt-3 text-md-right">
-                              <span class="text-primary">September 2018 - June 2019</span>
+                              <span class="color">September 2018 - June 2019</span>
                            </div>
                         </div>
                      </div>
-                     <a href="#" class="cv bg-primary text-center mx-auto" download="">Download CV</a>
+                     <a href="#" class="cv text-center mx-auto py-2 px-3" download>Download CV</a>
                   </div>
                </section>
             </div>
@@ -286,10 +322,10 @@
                            </div>
                         </div>
                         <div class="col-md-12 mb-4">
-                           <p class="skill-title p-0 m-0">PHP <span class="float-right">50%</span></p>
+                           <p class="skill-title p-0 m-0">PHP <span class="float-right">65%</span></p>
                            <div class="progress" style="height: 10px;">
                               <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-                                 style="width:50%;">50%</div>
+                                 style="width:65%;">65%</div>
                            </div>
                         </div>
                      </div>
@@ -381,7 +417,39 @@
                   </div>
                </div>
             </div>
-            <!-- ===services=== -->
+            <!-- ===services ends here=== -->
+
+
+            <!-- ===customers, clients projects=== -->
+            <div class="my-5 container-fluid bg-color">
+               <div class="row p-md-5">
+                  <div class="col-md-4 py-3 animate__animated animate__zoomInUp">
+                     <div class="projects mx-auto bg-secondary py-4">
+                        <h2 class="number text-center mx-auto">2</h2>
+                        <p class="text-center mx-auto">Years Experience</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 animate__animated animate__zoomInUp">
+                     <div class="projects bg-secondary mx-auto py-4">
+                        <h2 class="number text-center mx-auto">7</h2>
+                        <p class="text-center mx-auto">Happy Clients</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4 py-3 animate__animated animate__slideInUp">
+                     <div class="projects mx-auto bg-secondary py-4">
+                        <h2 class="number text-center mx-auto">55</h2>
+                        <p class="text-center mx-auto">Complete Projects </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row hire">
+                  <div class="col-12 text-center p-5">
+                     <p class="font text-center text-white mx-auto available">I'm <span class="color bolder">Available</span> for freelancing <br> </p>
+                     <a href="#" class="hire mx-auto my-5 text-center px-4 py-2">Hire Me</a>
+                  </div>
+               </div>
+            </div>
 
 
 
@@ -410,11 +478,11 @@
                               </span>&nbsp;&nbsp;&nbsp;info.bowofade@gmail.com</p>
                         </div>
                         <div class="w-100 mx-auto text-center">
-                           <a href="" class="s-link pr-1" title="facebook"><i class="fab fa-facebook fa-2x "></i></a>
-                           <a href="" class="s-link pr-1" title="Linkdin"><i class="fab fa-linkedin fa-2x"></i></a>
-                           <a href="" class="s-link pr-1" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
-                           <a href="" class="s-link pr-1 " title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
-                           <a href="" class="s-link pr-1 " title="github"><i class="fab fa-github fa-2x"></i></a>
+                           <a href="" class="f-link pr-1" title="facebook"><i class="fab fa-facebook fa-2x "></i></a>
+                           <a href="" class="l-link pr-1" title="Linkdin"><i class="fab fa-linkedin fa-2x"></i></a>
+                           <a href="" class="t-link pr-1" title="Twitter"><i class="fab fa-twitter fa-2x"></i></a>
+                           <a href="" class="i-link pr-1 " title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                           <a href="" class="g-link pr-1 " title="github"><i class="fab fa-github fa-2x"></i></a>
                         </div>
 
                      </div>
@@ -448,7 +516,7 @@
                                  </div>
                               </div>
                               <div class="col-md-12 text-center">
-                                 <button type="submit" class="btn button bg-primary text-center"
+                                 <button type="submit" class="btn button bg-color text-center"
                                     style="border-radius: 25px;">Send Your Message</button>
                               </div>
                         </form>

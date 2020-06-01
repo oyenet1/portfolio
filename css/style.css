@@ -16,6 +16,7 @@ a.s-link, a {
   bottom: 0 !important;
   height: 100% !important;
   width: 310px;
+  background-color: rgb(100, 20, 155);
 }
 
 @media screen and (min-width: 992px) {
@@ -53,6 +54,11 @@ div#main {
       padding-left: 315px;
     }
   }
+  @media screen and (min-width: 768px) {
+    div.hire {
+      margin-top: -130px;
+    }
+  }
 
   /* styling services */
   div#service {
@@ -71,7 +77,7 @@ div.service {
   }
 div.service:hover {
     background-color: transparent ;
-    color: dodgerblue;
+    color: rgb(100, 20, 155);
   }
  
   h2.head:hover {
@@ -83,28 +89,12 @@ div.service:hover {
 
   /* styling contact page */
   #contact {
-    background-image: linear-gradient(to bottom right, white, mediumblue)!important;
+    background-image: linear-gradient(to bottom right, blue, darkviolet, darkmagenta, blue)!important;
     background-attachment: fixed;
-  }
-
-  #resume {
-    /*  background-color: rgba(50, 50, 50, .5)!important; */
   }
   div.school {
     border:1px solid green;
     border-radius: 3px;
-  }
-  .cv {
-    padding: 8px!important;
-    margin: 3px;
-    border: 2px solid white;
-    border-radius: 25px;
-    background: transparent!important;
-  }
-  a.cv:hover {
-    background-color: white!important;
-   color: black !important;
-   font-weight: bold;
   }
   /* education area */
   div.education {
@@ -140,3 +130,47 @@ div.service:hover {
     background-color: greenyellow!important;
     border-radius: 100px;
   }
+
+  td.dbold {
+    font-weight: 900;
+    color: rgb(100, 20, 155);
+  }
+  .color {
+    color: rgb(100, 20, 155);
+  }
+  .bg-color {
+    background-color: rgb(100, 20, 155);
+  }
+  .date {
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  a.hire, .cv {
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgb(100, 20, 155)!important;
+  }
+  a.hire:hover, a.cv:hover {
+    background-color:white!important;
+    color: rgb(100, 20, 155)!important;
+    font-weight: 600;
+  }
+
+  div.hire {
+    background-image: url('../image/city2.jpg')!important;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px;
+  }
+
+  .projects {
+    border-radius: 6px;
+  }
+@media screen and (min-width: 576px) {
+  p.available {
+    font-size: 4vw;
+    font-weight: 800;
+  }
+}
