@@ -7,20 +7,23 @@
    <meta name="keyword"
       content="bowo, bowofade, websites freelancer, web developer, nigeria web developer, flutter developer, android apps developer, oyerinde bowofade bukunmi, Networker, j2fashion, uniabuja developer, ios developer, ios app, fullstack freelancer, php developer, laravel, abuja developer" />
    <title>bowofade</title>
-
    <!--fontawesome script-->
    <script src="https://kit.fontawesome.com/ab7d4c3953.js" crossorigin="anonymous"></script>
    <!-- animation -->
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
    <link rel="stylesheet" href="css/aos.css" />
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Oswald:wght@500;700&family=Sacramento&family=Teko:wght@300;500;700&family=Vollkorn:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Oswald:wght@500;700&family=Sacramento&family=Teko:wght@300;500;700&family=Vollkorn:ital,wght@0,600;1,500&display=swap"
+      rel="stylesheet">
 
 
    <!-- favicon -->
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
    <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+   <link rel="stylesheet" href="css/font.css" />
    <link rel="stylesheet" href="css/animate.css" />
    <link rel="stylesheet" href="css/style.css" />
    <style>
@@ -52,6 +55,9 @@
       a.l-link:hover {
          color: #ffc107 !important;
       }
+      h2.profile {
+         font-family: "Lobster", cursive;
+      }
    </style>
 </head>
 
@@ -64,55 +70,96 @@
       onload=" if(submitted) {window.location='https://www.google.com';} ">
    </iframe>
 
-   <nav class="navbar navbar-expand-md bg-color navbar-dark d-lg-none sticky-top">
-      <!-- Brand -->
-      <a class="navbar-brand" href="index.html"><img src="image/name.png" alt="bowofade.com"
-            style="max-width: 220px;" /></a>
+   <header class="headslides">
+      <nav class="navbar navbar-expand-md bg-transparent d-block d-md-none fixed-top navbar-dark">
+         <!-- Brand -->
+         <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="image/name.png" alt="bowofade.com"
+                  style="max-width: 220px;" /></a>
 
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-         <span class="navbar-toggler-icon d-block"></span>
-      </button>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler text-light" type="button" data-toggle="collapse"
+               data-target="#collapsibleNavbar">
+               <span class="navbar-toggler-icon d-block"></span>
+            </button>
 
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-               <a class="nav-link font-weight-bold a-link" href="index.html">Home</a>
-            </li>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link a-link text-light" href="index.html">Home</a>
+                  </li>
 
-            <li class="nav-item">
-               <a class="nav-link font-weight-bold a-link" href="#about">About</a>
-            </li>
+                  <li class="nav-item">
+                     <a class="nav-link a-link text-light" href="#about">About</a>
+                  </li>
 
-            <li class="nav-item">
-               <a class="nav-link font-weight-bold a-link" href="#resume">Resume</a>
-            </li>
+                  <li class="nav-item">
+                     <a class="nav-link a-link text-light" href="#resume">Resume</a>
+                  </li>
 
-            <li class="nav-item">
-               <a class="nav-link font-weight-bold a-link" href="#service">Services</a>
-            </li>
+                  <li class="nav-item">
+                     <a class="nav-link a-link text-light" href="#service">Services</a>
+                  </li>
 
-            <li class="nav-item">
-               <a class="nav-link font-weight-bold a-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link font-weight-bold a-link" href="#contact">Contact</a>
-            </li>
-         </ul>
+                  <li class="nav-item">
+                     <a class="nav-link a-link text-light" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link a-link text-light" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active animate__animated animate__zoomIn d-2">
+               <img src="image/slide4.jpg" class="d-block w-100" alt="city" />
+               <div class="carousel-caption d-none d-sm-block">
+                  <p class="bowofade mb-0 animate__animated animate__slideInRight d-3">Hi! <br>I'm <span
+                        class=" text-warning">Bowofade</span></p>
+                  <p class="italic p-0 m-0 animate__animated animate__rotateInUpLeft animate__delay-1s d-2">A Freelance
+                     Web Developer</p>
+                  <p class="ml-0 pt-sm-2 pt-md-3 animate__animated animate__zoomIn d-4"> <a href=""
+                        class="work py-2 px-3 text-white text-uppercase">Hire me</a><a href=""
+                        class="work py-2 px-3 bg-color text-uppercase text-white">My works</a></p>
+               </div>
+            </div>
+            <div class="carousel-item animate__animated animate__rotateInUpLeft d-1">
+               <img src="image/slide1.jpg" class="d-block w-100" alt="inovation" />
+               <div class="carousel-caption d-none d-sm-block">
+                  <p class="italic pb-0 m-0 animate__animated animate__slideInUp d-3">Hello!</p>
+                  <p class="bowofade2 mb-0 animate__animated animate__slideInRight aimation__delay-1s d-2">I'm <span
+                        class="text-warning"> Web Developer </span> <br>
+                     based in Nigeria</p>
+                  <p class="ml-0 pt-sm-2 pt-md-3 animate__animated animate__zoomIn animate__delay-2s d-1"> <a href=""
+                        class="work py-2 px-3 text-white text-uppercase animate__animated animate__slideInLeft animate__delay-3s">Hire
+                        me</a> <a href=""
+                        class="work py-2 px-3 bg-color text-uppercase text-white animate__animated animate__zoomIn d-4">My
+                        works</a></p>
+               </div>
+            </div>
+         </div>
       </div>
-   </nav>
-   <div class="container-fluid">
-      <!-- ====Header staart here=== -->
+   </header>
+   <div class="container-fluid mt-0 pt-0">
+      <!-- ====Header start here=== -->
+
       <div class="d-none h-100" id="aside">
          <header class="header">
             <div class="mx-auto text-center">
                <!-- ===profile image=== -->
                <img src="image/PhotoPictureResizer_190527_171158049_crop_1004x1053.jpg" alt="profile image"
-                  class="p-2 mx-auto d-block text-center rounded-circle p-image" width="130" height="130" />
+                  class="p-2 mx-auto d-block text-center rounded-circle p-image mt-5" width="130" height="130" />
 
                <!-- ====my name=== -->
-               <h2 class="profile-name pt-1" title="a.k.a Networker">Bowofade</h2>
+               <h2 data-toggle="tooltip" data-placement="top" title="a.k.a Networker" class="profile text-warning t-1">Bowofade
+               </h2>
 
                <!-- ===social media icon d-block === -->
                <div class="list-unstyled d-inline-block">
@@ -134,25 +181,22 @@
                <!-- Links -->
                <ul class="list-unstyled pl-0">
                   <li class="nav-item">
-                     <a class="nav-link font-weight-bold a-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                     <a class="nav-link a-link" href="index.html"><i class="fas fa-home text-warning"></i>&nbsp;&nbsp;&nbsp; Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-bold a-link" href="#about"><i class="fas fa-user"></i> About</a>
+                     <a class="nav-link a-link" href="#about"><i class="fas fa-user text-warning"></i>&nbsp;&nbsp;&nbsp; About</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-bold a-link" href="#resume"><i class="fas fa-file"></i> Resume</a>
+                     <a class="nav-link a-link" href="#resume"> <i class="fas fa-file text-warning"></i>&nbsp;&nbsp;&nbsp; Resume</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-bold a-link" href="#service"><i class="fas fa-server"></i>
-                        Services</a>
+                     <a class="nav-link a-link" href="#service"><i class="fas fa-server text-warning"></i>&nbsp;&nbsp;&nbsp; Services</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-bold a-link" href="#portfolio"><i class="fas fa-list"></i>
-                        Portfolio</a>
+                     <a class="nav-link a-link" href="#portfolio"><i class="fas fa-list text-warning"></i>&nbsp;&nbsp;&nbsp; Portfolio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link font-weight-bold a-link" href="#contact"><i class="fas fa-portrait"></i>
-                        Contact</a>
+                     <a class="nav-link a-link" href="#contact"> <i class="fas fa-portrait text-warning"></i>&nbsp;&nbsp;&nbsp; Contact</a>
                   </li>
                </ul>
             </div>
@@ -361,7 +405,7 @@
                </div>
                <div class="col-sm-6">
                   <div class="row">
-                     <div class="col-md-12 mb-4">
+                     <div class="col-md-12 mb-4" data-aos="slide-up">
                         <p class="skill-title p-0 m-0">
                            HTML <span class="float-right">90%</span>
                         </p>
@@ -372,7 +416,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-12 mb-4">
+                     <div class="col-md-12 mb-4" data-aos="slide-up">
                         <p class="skill-title p-0 m-0">
                            CSS<span class="float-right">75%</span>
                         </p>
@@ -383,7 +427,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-12 mb-4">
+                     <div class="col-md-12 mb-4" data-aos="slide-up">
                         <p class="skill-title p-0 m-0">
                            PHP <span class="float-right">65%</span>
                         </p>
@@ -398,7 +442,7 @@
                </div>
                <div class="col-sm-6">
                   <div class="row">
-                     <div class="col-md-12 mb-4">
+                     <div class="col-md-12 mb-4" data-aos="slide-up">
                         <p class="skill-title p-0 m-0">
                            SQL <span class="float-right">70%</span>
                         </p>
@@ -409,7 +453,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-12 mb-4">
+                     <div class="col-md-12 mb-4" data-aos="slide-up">
                         <p class="skill-title p-0 m-0">
                            DART <span class="float-right">80%</span>
                         </p>
@@ -420,7 +464,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-md-12 mb-4">
+                     <div class="col-md-12 mb-4" data-aos="slide-up">
                         <p class="skill-title p-0 m-0">
                            POWERPOINT <span class="float-right">85%</span>
                         </p>
@@ -626,10 +670,16 @@ Write your message here</textarea>
    <script src="js/bootstrap.min.js"></script> -->
 
    <!-- animation library -->
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- animation -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
    <script src="js/aos.js"></script>
 
    <!-- Latest compiled and minified CSS -->
+   <!-- font -->
+   <script src="js/all.js"></script>
 
    <!-- jQuery library -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

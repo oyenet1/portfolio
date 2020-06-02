@@ -1,4 +1,74 @@
-/* the primary color of the website */
+/* slideshow stylig */
+.d-1 {
+  animation-duration: 1s;
+}
+
+.d-2 {
+  animation-duration: 2s;
+}
+
+.d-3 {
+  animation-duration: 3s;
+}
+
+.d-4 {
+  animation-duration: 4s;
+}
+
+.d-5 {
+  animation-duration: 5s;
+}
+
+a.a-link:hover,
+a.a-link:hover,
+a.a-link:active  {
+  color: #ffc107 !important;
+  font-weight: 500;
+}
+.carousel-caption {
+  min-width: 300px;
+  width: 60%;
+  z-index: 10;
+  top: 30%;
+  right: 70%;
+  text-align: left;
+  /* translate: translateY(-50%); */
+}
+
+.carousel-item {
+  min-height: 300px;
+}
+@media screen and (min-width: 992px) {
+  .bowofade {
+    font-family: "Lobster", cursive;
+    font-size: 4vw;
+  }
+  .bowofade2 {
+    font-family: "Vollkorn", sans-serif;
+    font-size: 4vw;
+    
+  }
+  p.italic {
+    font-family: "Vollkorn", serif;
+    font-size: 3vw;
+  }
+  
+  a.work {
+    font-family: "Anton" sans-serif;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  a.a-link:hover, a.a-link:focus {
+      border: none;
+      text-decoration: underline;
+    }
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-left: 3px;
+   
+  }
+}
 
 
 /*styling the icon side bar  */
@@ -27,6 +97,7 @@ a.s-link, a {
 
 /* color for sidebar navigation link */
 a.a-link {
+  font-family: "Vollkorn", sans-serif;
   font-size: 18px;
 }
 h2.profile-name {
@@ -50,8 +121,8 @@ div#main {
   background-color: floralwhite !important;
 }
   @media screen and (min-width: 992px) {
-    #main {
-      padding-left: 315px;
+    #main, header.headslides {
+      padding-left: 310px;
     }
   }
   @media screen and (min-width: 768px) {
@@ -146,7 +217,7 @@ div.service:hover {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  a.hire, .cv {
+  a.hire, .cv, .work {
     margin: 10px;
     border: 2px solid white;
     border-radius: 50px;
