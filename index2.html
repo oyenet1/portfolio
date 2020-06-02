@@ -1,34 +1,160 @@
 <!DOCTYPE html>
 <!-- latest bootstrap -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-  />
-  <link rel="stylesheet" href="css/animate.css">
-  </head>
-  <body>
-      <h2 class="bg-success animate_animated animate__bounce p-5">I am a boy</h2>
-      <p class="animate_animated animate__animate__rollIn p-4 text-center animate__delay-2s">My name is Bowofade learning animation</p>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/animate.css" />
+
+  <style>
+    .d-1 {
+      animation-duration: 1s;
+    }
+
+    .d-2 {
+      animation-duration: 2s;
+    }
+
+    .d-3 {
+      animation-duration: 3s;
+    }
+
+    .d-4 {
+      animation-duration: 4s;
+    }
+
+    .d-5 {
+      animation-duration: 5s;
+    }
+
+    a.a-link:hover,
+    a.a-link:hover,
+    a.a-link:active  {
+      border-bottom: 2px solid rgb(100, 20, 155);
+      color: rgb(100, 20, 155) !important;
+      font-weight: 500;
+    }
+
+    .carousel-item {
+     
+    }
+    .carousel-caption {
+      width: 200px;
+      z-index: 10;
+      top: 50%;
+      right: 65%;
+      text-align: center;
+      /* translate: translateY(-50%); */
+    }
+
+    @media screen and (max-width: 991px) {
+      a.a-link:hover, a.a-link:focus {
+          border: none;
+          text-decoration: underline;
+        }
+      .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.2);
+        padding-left: 3px;
+       
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-transparent  fixed-top navbar-dark">
+    <!-- Brand -->
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="image/name.png" alt="bowofade.com"
+          style="max-width: 220px;" /></a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon d-block"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link a-link text-light" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link a-link text-light" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link a-link text-light" href="#resume">Resume</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link a-link text-light" href="#service">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link a-link text-light" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-link text-light" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active animate__animated animate__zoomIn d-3">
+        <img src="image/slide4.jpg" class="d-block w-100" alt="city" />
+        <div class="carousel-caption d-none d-sm-block my-auto">
+          <p class="m-0 p-0">Hi!</p>
+          <h5 class="mt-0">Hi <span>Bowofade</span> </h5>
+          <p>A Freelance Web Developer</p>
+
+        </div>
+      </div>
+      <div class="carousel-item animate__animated animate__slideInRight d-2">
+        <img src="image/slide3.jpg" class="d-block w-100" alt="inovation" />
+        <div class="carousel-caption d-none d-sm-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+    <!-- <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> -->
+  </div>
+  <!-- animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

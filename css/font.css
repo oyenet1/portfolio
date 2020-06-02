@@ -1,0 +1,25 @@
+/* .font {
+  font-family: "Anton", sans-serif;
+  font-family: "Lobster", cursive;
+  font-family: "Oswald", sans-serif;
+  font-family: "Sacramento", cursive;
+  font-family: "Teko", sans-serif;
+  font-family: "Vollkorn", serif;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+}
+
+div {
+  font-family: myFirstFont;
+} 
+
+*/
