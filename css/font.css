@@ -1,10 +1,16 @@
+
+
 /* .font {
-  font-family: "Anton", sans-serif;
-  font-family: "Lobster", cursive;
-  font-family: "Oswald", sans-serif;
-  font-family: "Sacramento", cursive;
-  font-family: "Teko", sans-serif;
-  font-family: "Vollkorn", serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Piedra', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-family: "Anton", sans-serif;
+font-family: "Lobster", cursive;
+font-family: "Oswald", sans-serif;
+font-family: "Sacramento", cursive;
+font-family: "Teko", sans-serif;
+font-family: "Vollkorn", serif;
 }
 */
 
@@ -27,49 +33,3 @@ p.italic {
 a.work {
   font-family: "Anton" sans-serif;
 }
-/* @font-face {
-  font-family: "Anton", "sans-serif";
-  src: url("../fonts/Anton-Regular.ttf");
-}
-@font-face {
-  font-family: "Lobster", cursive;
-  src: url("../fonts/Lobster-Regular.ttf");
-}
-@font-face {
-  font-family: "Oswand", "sans-serif";
-  src: url("../fonts/Oswald-Bold.ttf");
-  src: url("../fonts/Oswald-ExtraLight.ttf");
-  src: url("../fonts/Oswald-Light.ttf");
-  src: url("../fonts/Oswald-Medium.ttf");
-  src: url("../fonts/Oswald-Regular.ttf");
-  src: url("../fonts/Oswald-SemiBold.ttf");
-  src: url("../fonts/Oswald-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "Sacramento", "cursive";
-  src: url("../fonts/Sacramento-Regular.ttf");
-}
-@font-face {
-  font-family: "Teko", "sans-serif";
-  src: url("../fonts/Teko-Bold.ttf");
-  src: url("../fonts/Teko-Light.ttf");
-  src: url("../fonts/Teko-Medium.ttf");
-  src: url("../fonts/Teko-Regular.ttf");
-  src: url("../fonts/Teko-SemiBold.ttf");
-}
-@font-face {
-  font-family: "Vollkorn", "serif";
-  src: url("../fonts/Vollkorn-Black.ttf");
-  src: url("../fonts/Vollkorn-BlackItalic.ttf");
-  src: url("../fonts/Vollkorn-Bold.ttf");
-  src: url("../fonts/Vollkorn-BoldItalic.ttf");
-  src: url("../fonts/Vollkorn-ExtraBold.ttf");
-  src: url("../fonts/Vollkorn-ExtraBoldItalic.ttf");
-  src: url("../fonts/Vollkorn-Italic-VariableFont_wght.ttf");
-  src: url("../fonts/Vollkorn-Italic.ttf");
-  src: url("../fonts/Vollkorn-Medium.ttf");
-  src: url("../fonts/Vollkorn-MediumItalic.ttf");
-  src: url("../fonts/Vollkorn-Regular.ttf");
-  src: url("../fonts/Vollkorn-SemiBold.ttf");
-  src: url("../fonts/Vollkorn-SemiBoldItalic.ttf");
-  src: url("../fonts/Vollkorn-VariableFont_wght.ttf"); */
