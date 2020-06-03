@@ -19,7 +19,7 @@
   animation-duration: 5s;
 }
 
-a.a-link:hover,
+a.a-link:focus,
 a.a-link:hover,
 a.a-link:active {
   color: #ffc107 !important;
@@ -94,7 +94,7 @@ a {
 }
 
 /* color for sidebar navigation link */
-a.a-link {
+a.a-link, .prog {
   font-family: "Vollkorn", sans-serif;
   font-size: 18px;
 }
@@ -143,16 +143,12 @@ div#service {
   box-sizing: border-box;
 }
 div.service {
-  background-color: rgba(50, 50, 50, 0.8) !important;
   color: white;
-  border-left: 1px solid white;
-  border-bottom: 1px solid white;
+  border: 12px solid rgba(50, 50, 50, 0.5);
   box-sizing: border-box;
-  margin-bottom: 3px;
+  border-radius: 5px;
 }
 div.service:hover {
-  background-color: transparent;
-  color: rgb(100, 20, 155);
 }
 
 h2.head:hover {
@@ -165,6 +161,10 @@ h2.head {
   font-weight: 500;
   font-style: normal;
   color: white;
+}
+
+p.prog {
+  
 }
 
 /* styling contact page */
@@ -257,7 +257,15 @@ div.hire {
 }
 @media screen and (min-width: 576px) {
   p.available {
+    font-family: 'Anton';
+    /* font-weight: normal; */
+    font-style: normal;
     font-size: 4vw;
     font-weight: 800;
   }
+}
+
+p.foo {
+  font-family: "Vollkorn", sans-serif;
+  color: azure;
 }
