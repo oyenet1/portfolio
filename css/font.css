@@ -1,11 +1,8 @@
-
-
 /* .font {
 font-family: 'Anton', sans-serif;
 font-family: 'Piedra', cursive;
 font-family: 'Satisfy', cursive;
 font-family: 'Titillium Web', sans-serif;
-font-family: "Anton", sans-serif;
 font-family: "Lobster", cursive;
 font-family: "Oswald", sans-serif;
 font-family: "Sacramento", cursive;
@@ -13,17 +10,44 @@ font-family: "Teko", sans-serif;
 font-family: "Vollkorn", serif;
 }
 */
-
-
+td.w-25 {
+  font-family: "Vollkorn";
+  font-weight: bold;
+  font-style: normal;
+}
+td.w-75 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.subhead {
+  font-family: "Vollkorn";
+  font-weight: 900;
+  font-style: italic;
+  color: black;
+}
+p.title {
+  font-family: "Satisfy";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+}
+.profession {
+  font-family: "Piedra";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+}
 
 .bowofade {
   font-family: "Lobster", cursive;
   font-size: 5vw;
 }
 .bowofade2 {
-  font-family: "Vollkorn", sans-serif;
+  font-family: "Piedra";
+  font-weight: normal;
+  font-style: normal;
   font-size: 5vw;
-  
 }
 p.italic {
   font-family: "Vollkorn", serif;
