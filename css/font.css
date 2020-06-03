@@ -10,13 +10,19 @@ font-family: "Teko", sans-serif;
 font-family: "Vollkorn", serif;
 }
 */
+.date {
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+}
 td.w-25 {
   font-family: "Vollkorn";
   font-weight: bold;
   font-style: normal;
 }
 td.w-75 {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: bold;
   font-style: normal;
 }

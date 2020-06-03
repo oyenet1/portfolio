@@ -21,7 +21,7 @@
 
 a.a-link:hover,
 a.a-link:hover,
-a.a-link:active  {
+a.a-link:active {
   color: #ffc107 !important;
   font-weight: 500;
 }
@@ -45,32 +45,32 @@ a.a-link:active  {
   }
   .bowofade2 {
     font-size: 4vw;
-    
   }
   p.italic {
     font-family: "Vollkorn", serif;
     font-size: 3vw;
   }
-  
+
   a.work {
     font-family: "Anton" sans-serif;
   }
 }
 
 @media screen and (max-width: 991px) {
-  a.a-link:hover, a.a-link:focus {
-      border: none;
-      text-decoration: underline;
-    }
+  a.a-link:hover,
+  a.a-link:focus {
+    border: none;
+    text-decoration: underline;
+  }
   .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.2);
     padding-left: 3px;
-   
   }
 }
 
 /*styling the icon side bar  */
-a.s-link, a {
+a.s-link,
+a {
   color: white;
   text-decoration: none !important;
   background-color: none !important;
@@ -90,7 +90,7 @@ a.s-link, a {
 @media screen and (min-width: 992px) {
   #aside {
     display: block !important;
-}
+  }
 }
 
 /* color for sidebar navigation link */
@@ -100,7 +100,7 @@ a.a-link {
 }
 h2.profile-name {
   color: inherit !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /* footer styling */
@@ -110,7 +110,6 @@ div.footer {
   bottom: 0;
   left: 0;
   clear: both;
-
 }
 
 /* main */
@@ -118,125 +117,144 @@ div#main {
   /* background-image: url('../image/house.jpg') !important; */
   background-color: floralwhite !important;
 }
-  @media screen and (min-width: 992px) {
-    #main, header.headslides {
-      padding-left: 310px;
-    }
+@media screen and (min-width: 992px) {
+  #main,
+  header.headslides {
+    padding-left: 310px;
   }
-  @media screen and (min-width: 768px) {
-    div.hire {
-      margin-top: -130px;
-    }
-  }
-
-  /* styling services */
-  div#service {
-    background-image: url('../image/skills.jpg') !important;
-    background-attachment: inherit;
-    background-size: cover !important;
-      box-sizing: border-box;
-  }
-div.service {
-    background-color: rgba(50, 50, 50, .8) !important;
-    color: white;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
-    box-sizing: border-box;
-    margin-bottom: 3px;
-  }
-div.service:hover {
-    background-color: transparent ;
-    color: rgb(100, 20, 155);
-  }
- 
-  h2.head:hover {
-    font-weight: 500;
-    font-size: 50px;
-    text-decoration: underline;
-    text-decoration-color: royalblue;
-  }
-
-  /* styling contact page */
-  #contact {
-    background-image: linear-gradient(to bottom right, blue, darkviolet, darkmagenta, blue)!important;
-    background-attachment: fixed;
-  }
-  div.school {
-    border:1px solid green;
-    border-radius: 3px;
-  }
-  /* education area */
-  div.education {
-    background-image: linear-gradient(to bottom right, gray, blue rgb(33, 150, 218))!important;
-    background-attachment: fixed;
-    background-color: rgba(20, 20, 20, .5)!important;
-  }
-  /* skilss */
-  div#skills {
-    background-image: linear-gradient(to right, white, darkslategrey)!important;
-    background-attachment: fixed;
-  }
-
-  .card {
-    border-width: 1px !important;
-  }
-  #experience {
-    background-image: url('../image/innovation.jpg') !important;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  /* button styling */
-  button.button, .button {
-    color: seashell !important;
-    background-color: transparent !important;
-    border: 2px solid white;
-  }
-  button.button:hover, .button:hover {
-    color:mediumblue !important;
-    background-color: white !important;
-  }
-  span.p-2 {
-    background-color: greenyellow!important;
-    border-radius: 100px;
-  }
-
-  td.dbold {
-    font-weight: 900;
-    color: rgb(100, 20, 155);
-  }
-  .color {
-    color: rgb(100, 20, 155);
-  }
-  .bg-color {
-    background-color: rgb(100, 20, 155);
-  }
-  .date {
-    font-weight: 900;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-
-  a.hire, .cv, .work {
-    margin: 10px;
-    border: 2px solid white;
-    border-radius: 50px;
-    background-color: rgb(100, 20, 155)!important;
-  }
-  a.hire:hover, a.cv:hover {
-    background-color:white!important;
-    color: rgb(100, 20, 155)!important;
-    font-weight: 600;
-  }
-
+}
+@media screen and (min-width: 768px) {
   div.hire {
-    background-image: url('../image/city2.jpg')!important;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 80px;
+    margin-top: -130px;
   }
+}
+/* education */
+body {
+  /* background-image: url("../image/slide3.jpg") !important; */
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* styling services */
+div#service {
+  background-image: url("../image/skills.jpg") !important;
+  background-attachment: inherit;
+  background-size: cover !important;
+  box-sizing: border-box;
+}
+div.service {
+  background-color: rgba(50, 50, 50, 0.8) !important;
+  color: white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+}
+div.service:hover {
+  background-color: transparent;
+  color: rgb(100, 20, 155);
+}
 
-  .projects {
-    border-radius: 6px;
-  }
+h2.head:hover {
+  border-bottom: 2px solid #ffc107;
+  text-decoration-color: rgb(100, 20, 155);
+}
+h2.head {
+  max-width: max-content;
+  font-family: "Teko";
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+
+/* styling contact page */
+#contact {
+  background-image: linear-gradient(
+    to bottom right,
+    blue,
+    darkviolet,
+    darkmagenta,
+    blue
+  ) !important;
+  background-attachment: fixed;
+}
+div.school {
+  border: 1px solid green;
+  border-radius: 3px;
+}
+/* education area */
+div.education {
+  background-attachment: fixed;
+  background-color: rgba(20, 20, 20, 0.1) !important;
+  background-image: url("../image/schol2.jpg");
+}
+/* skilss */
+div#skills {
+  background-image: linear-gradient(to right, white, darkslategrey) !important;
+  background-attachment: fixed;
+}
+
+.card {
+  border-width: 1px !important;
+}
+#experience {
+  background-image: url("../image/innovation.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* button styling */
+button.button,
+.button {
+  color: seashell !important;
+  background-color: transparent !important;
+  border: 2px solid white;
+}
+button.button:hover,
+.button:hover {
+  color: mediumblue !important;
+  background-color: white !important;
+}
+span.p-2 {
+  background-color: greenyellow !important;
+  border-radius: 100px;
+}
+
+td.dbold {
+  font-weight: 900;
+  color: rgb(100, 20, 155);
+}
+.color {
+  color: rgb(100, 20, 155);
+}
+.bg-color {
+  background-color: rgb(100, 20, 155);
+}
+
+a.hire,
+.cv,
+.work {
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: rgb(100, 20, 155) !important;
+}
+a.hire:hover,
+a.cv:hover {
+  background-color: white !important;
+  color: rgb(100, 20, 155) !important;
+  font-weight: 600;
+}
+
+div.hire {
+  background-image: url("../image/city2.jpg") !important;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px;
+}
+
+.projects {
+  border-radius: 6px;
+}
 @media screen and (min-width: 576px) {
   p.available {
     font-size: 4vw;
