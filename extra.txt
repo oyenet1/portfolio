@@ -5,3 +5,7 @@
 <iframe width="800" height="440" src="https://maps.google.com/maps?width=800&amp;height=440&amp;hl=en&amp;q=No%2011%2C%20light%20of%20glory%2C%20karu%20%20Mararaba+(Bowofade)&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 
 style="border: 0; height: 270px;"
+//font awesome
+<script src="https://use.fontawesome.com/8336ff97e5.js"></script>
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">

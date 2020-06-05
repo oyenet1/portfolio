@@ -94,7 +94,8 @@ a {
 }
 
 /* color for sidebar navigation link */
-a.a-link, .prog {
+a.a-link,
+.prog {
   font-family: "Vollkorn", sans-serif;
   font-size: 18px;
 }
@@ -137,16 +138,16 @@ body {
 }
 /* styling services */
 div#service {
-  background-image: url("../image/skills.jpg") !important;
-  background-attachment: inherit;
+  background-image: url("../image/slide4.jpg") !important;
+  background-attachment: fixed;
   background-size: cover !important;
   box-sizing: border-box;
 }
 div.service {
   color: white;
-  border: 12px solid rgba(50, 50, 50, 0.5);
+  border: 15px solid rgba(150, 150, 150, 0.5);
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 div.service:hover {
 }
@@ -163,18 +164,19 @@ h2.head {
   color: white;
 }
 
-p.prog {
-  
+nav.navbar {
+  background-image: linear-gradient(to bottom, #6610f2, #007bff);
 }
 
 /* styling contact page */
 #contact {
   background-image: linear-gradient(
     to bottom right,
-    blue,
-    darkviolet,
-    darkmagenta,
-    blue
+    #ffc107,
+    #ffc107,
+    rgb(100, 20, 155),
+    rgb(100, 20, 155),
+    red
   ) !important;
   background-attachment: fixed;
 }
@@ -257,11 +259,11 @@ div.hire {
 }
 @media screen and (min-width: 576px) {
   p.available {
-    font-family: 'Vollkron';
-    /* font-weight: normal; */
+    font-family: "Vollkorn";
+    font-weight: 900;
     font-style: normal;
+    color: black;
     font-size: 4vw;
-    font-weight: 800;
   }
 }
 

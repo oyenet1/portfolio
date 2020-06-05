@@ -61,5 +61,115 @@ p.italic {
 }
 
 a.work {
-  font-family: "Anton" sans-serif;
+  font-family: "Anton", sans-serif;
+}
+
+/* all font styles */
+.teko-regular {
+  font-family: "Teko", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.teko-medium {
+  font-family: "Teko", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.teko-bold {
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.teko-semibold {
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.teko-light {
+  font-family: "Teko", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/* piedra */
+.piedra {
+  font-family: "Piedra", cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+/* oswald */
+.oswald-semibold {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.oswald-medium {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.oswald-light {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.oswald-extralight {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+/* satisfy */
+.satisfy {
+  font-family: "Satisfy", cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+.titillium-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.titillium-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.titillium-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.titillium-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.titillium-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.titillium-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.titillium-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.titillium-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
