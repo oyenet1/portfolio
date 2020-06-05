@@ -92,7 +92,7 @@ a {
     display: block !important;
   }
 }
-
+.
 /* color for sidebar navigation link */
 a.a-link,
 .prog {
@@ -129,10 +129,14 @@ div#main {
     margin-top: -130px;
   }
 }
+
+.about-me {
+  background-color: rgba(100, 150, 200, 0.2)!important;
+}
 /* education */
 body {
   /* background-image: url("../image/slide3.jpg") !important; */
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.9);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -147,14 +151,14 @@ div.service {
   color: white;
   border: 15px solid rgba(150, 150, 150, 0.5);
   box-sizing: border-box;
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 div.service:hover {
+  background-color: transparent!important;
 }
 
 h2.head:hover {
   border-bottom: 2px solid #ffc107;
-  text-decoration-color: rgb(100, 20, 155);
 }
 h2.head {
   max-width: max-content;
@@ -172,11 +176,11 @@ nav.navbar {
 #contact {
   background-image: linear-gradient(
     to bottom right,
-    #ffc107,
-    #ffc107,
+    red,
     rgb(100, 20, 155),
     rgb(100, 20, 155),
-    red
+    red,
+    #ffc107
   ) !important;
   background-attachment: fixed;
 }
@@ -256,6 +260,12 @@ div.hire {
 
 .projects {
   border-radius: 6px;
+  border: 5px solid rgba(0, 0, 50, .5);
+  background-color: rgba(0, 0, 0, 1.0);
+}
+.projects:hover {
+  background-color:#007bff!important;
+  /* border: none!important; */
 }
 @media screen and (min-width: 576px) {
   p.available {

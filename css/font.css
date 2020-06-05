@@ -65,7 +65,7 @@ a.work {
 }
 
 /* all font styles */
-.teko-regular {
+.teko {
   font-family: "Teko", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -133,6 +133,11 @@ a.work {
   font-weight: normal;
   font-style: normal;
 }
+.titillium {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
 .titillium-light-italic {
   font-family: "Titillium Web", sans-serif;
   font-weight: 300;
@@ -142,6 +147,11 @@ a.work {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
   font-style: italic;
+}
+.titillium-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 .titillium-bold-italic {
   font-family: "Titillium Web", sans-serif;
@@ -171,5 +181,86 @@ a.work {
 .titillium-light {
   font-family: "Titillium Web", sans-serif;
   font-weight: 300;
+  font-style: normal;
+}
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+.sacramento {
+  font-family: 'Sacramento', cursive;
+  font-weight: normal;
+  font-style: normal;
+}
+.vollkorn-extrabold {
+  font-family: 'Vollkorn', serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.vollkorn-medium {
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.vollkorn-semibold {
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.vollkorn-semibold-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+  font-style: italic;
+}
+.vollkorn-medium-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  font-style: italics;
+}
+.vollkorn-extrabold-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.vollkorn-bold-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.vollkorn-bold {
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.vollkorn {
+  font-family: 'Vollkorn', serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.vollkorn-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.vollkorn-black {
+  font-family: 'Vollkorn', serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.vollkorn-black-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.vollkorn-italic {
+  font-family: 'Vollkorn', serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.anton {
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
   font-style: normal;
 }
