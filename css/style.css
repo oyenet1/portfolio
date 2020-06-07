@@ -52,16 +52,11 @@ a.a-link:active {
   }
 
   a.work {
-    font-family: "Anton" sans-serif;
+    font-family: "Vollkorn" serif;
   }
 }
 
 @media screen and (max-width: 991px) {
-  a.a-link:hover,
-  a.a-link:focus {
-    border: none;
-    text-decoration: underline;
-  }
   .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.2);
     padding-left: 3px;
@@ -92,13 +87,12 @@ a {
     display: block !important;
   }
 }
-.
 /* color for sidebar navigation link */
-a.a-link,
-.prog {
+p.prog {
   font-family: "Vollkorn", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
+
 h2.profile-name {
   color: inherit !important;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -268,15 +262,14 @@ div.hire {
   /* border: none!important; */
 }
 @media screen and (min-width: 576px) {
-  p.available {
-    font-family: "Vollkorn";
-    font-weight: 900;
-    font-style: normal;
-    color: black;
-    font-size: 4vw;
-  }
 }
 
+p.available {
+  font-family: "Vollkorn";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 5vw;
+}
 p.foo {
   font-family: "Vollkorn", sans-serif;
   color: azure;
